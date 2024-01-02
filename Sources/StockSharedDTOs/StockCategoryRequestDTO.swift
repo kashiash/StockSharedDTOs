@@ -9,7 +9,7 @@
 import Foundation
 
 
-public struct CategoryRequestDTO :Codable {
+public struct StockCategoryRequestDTO :Codable {
 
     public init(title: String, colorCode: String) {
 

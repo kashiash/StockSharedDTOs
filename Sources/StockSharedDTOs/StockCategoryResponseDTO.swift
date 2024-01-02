@@ -8,7 +8,7 @@
 import Foundation
 
 
-public struct CategoryResponseDTO :Content {
+public struct StockCategoryResponseDTO : Codable {
 
     public init(id: UUID, title: String, colorCode: String) {
         self.id = id
